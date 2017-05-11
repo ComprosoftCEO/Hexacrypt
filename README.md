@@ -16,6 +16,7 @@ Simple text-based encryption algorithm
    * i2Bf\`q{i "XnT\\^9
 
 <br>
+
 ## Weaknesses
 ---
 
@@ -24,8 +25,16 @@ Simple text-based encryption algorithm
 2. Platform dependent - Different random number algorithms produce different messages
 
 <br>
+
 ## The Algorithm
 ---
 
 ### Step 1: Filter
 This is a simple enough step. The computer removes any “illegal characters”, such as emoji’s, special letters, etc. from the message and secret key. Any of these characters would mess up the encryption process.
+<br>
+
+### Step 2: Get Seed
+Using the secret key provided, the computer adds up all of the ascii character values to get a number. This number then becomes the seed for the random number generator.
+<br>
+
+### Step 3: Shuffle Characters

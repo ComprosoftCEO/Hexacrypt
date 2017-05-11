@@ -1,0 +1,31 @@
+C:\Users\Bryan McClain\AppData\Local\Temporary Projects\Hexacrypt\bin\Debug\Hexacrypt.exe
+C:\Users\Bryan McClain\AppData\Local\Temporary Projects\Hexacrypt\bin\Debug\Hexacrypt.pdb
+C:\Users\Bryan McClain\AppData\Local\Temporary Projects\Hexacrypt\bin\Debug\Hexacrypt.xml
+C:\Users\Bryan McClain\AppData\Local\Temporary Projects\Hexacrypt\obj\x86\Debug\Hexacrypt.MainForm.resources
+C:\Users\Bryan McClain\AppData\Local\Temporary Projects\Hexacrypt\obj\x86\Debug\Hexacrypt.Resources.resources
+C:\Users\Bryan McClain\AppData\Local\Temporary Projects\Hexacrypt\obj\x86\Debug\Hexacrypt.vbproj.GenerateResource.Cache
+C:\Users\Bryan McClain\AppData\Local\Temporary Projects\Hexacrypt\obj\x86\Debug\Hexacrypt.exe
+C:\Users\Bryan McClain\AppData\Local\Temporary Projects\Hexacrypt\obj\x86\Debug\Hexacrypt.xml
+C:\Users\Bryan McClain\AppData\Local\Temporary Projects\Hexacrypt\obj\x86\Debug\Hexacrypt.pdb
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.exe
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.xml
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.pdb
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\bin\Debug\Hexacrypt.exe
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\bin\Debug\Hexacrypt.pdb
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\bin\Debug\Hexacrypt.xml
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.MainForm.resources
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.Resources.resources
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.vbproj.GenerateResource.Cache
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\bin\Debug\Hexacrypt.exe.manifest
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\bin\Debug\Hexacrypt.application
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.exe.manifest
+C:\Users\Bryan McClain\Desktop\Programming\Visual Basic 2010\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.application
+C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.exe
+C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.xml
+C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.pdb
+C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\Hexacrypt\bin\Debug\Hexacrypt.exe
+C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\Hexacrypt\bin\Debug\Hexacrypt.pdb
+C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\Hexacrypt\bin\Debug\Hexacrypt.xml
+C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.MainForm.resources
+C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.Resources.resources
+C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.vbproj.GenerateResource.Cache

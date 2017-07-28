@@ -80,7 +80,7 @@ Partial Class MainForm
         'InputTextBox
         '
         Me.InputTextBox.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.InputTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.InputTextBox.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.InputTextBox.ForeColor = System.Drawing.Color.Lime
         Me.InputTextBox.Location = New System.Drawing.Point(43, 164)
         Me.InputTextBox.Multiline = True
@@ -91,18 +91,18 @@ Partial Class MainForm
         'KeyTextBox
         '
         Me.KeyTextBox.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.KeyTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.KeyTextBox.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.KeyTextBox.ForeColor = System.Drawing.Color.Lime
         Me.KeyTextBox.Location = New System.Drawing.Point(123, 281)
         Me.KeyTextBox.MaxLength = 32768
         Me.KeyTextBox.Name = "KeyTextBox"
-        Me.KeyTextBox.Size = New System.Drawing.Size(240, 31)
+        Me.KeyTextBox.Size = New System.Drawing.Size(240, 33)
         Me.KeyTextBox.TabIndex = 5
         '
         'OutputTextBox
         '
         Me.OutputTextBox.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.OutputTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OutputTextBox.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OutputTextBox.ForeColor = System.Drawing.Color.Lime
         Me.OutputTextBox.Location = New System.Drawing.Point(43, 367)
         Me.OutputTextBox.Multiline = True

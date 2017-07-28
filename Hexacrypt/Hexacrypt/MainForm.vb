@@ -7,14 +7,7 @@
         LoadingLabel.Visible = True
         Application.DoEvents()
 
-        'Get the filtered string
-        Dim TempMessage As String = FilterCharacters(InputTextBox.Text)
-        Dim TempKey As String = FilterCharacters(KeyTextBox.Text)
-
-        Dim EncryptedMessage As String = PseudoXor(TempMessage, TempKey)
-
-        EncryptedMessage = AddExtraCharacters(EncryptedMessage, TempKey)
-        OutputTextBox.Text = EncryptedMessage
+        OutputTextBox.Text = Hexacrypt_Encrypt(InputTextBox.Text, KeyTextBox.Text)
 
         'Hide the loading bar
         LoadingLabel.Visible = False
@@ -28,16 +21,9 @@
         LoadingLabel.Visible = True
         Application.DoEvents()
 
-        'Get the filtered string
-        Dim TempMessage As String = FilterCharacters(InputTextBox.Text)
-        Dim TempKey As String = FilterCharacters(KeyTextBox.Text)
-
         'Stop the program if there is an error decrypting
         Try
-            Dim DecryptedMessage As String = RemoveExtraChars(TempMessage, TempKey)
-
-            DecryptedMessage = PseudoXor(DecryptedMessage, TempKey)
-            OutputTextBox.Text = DecryptedMessage
+            OutputTextBox.Text = Hexacrypt_Decrypt(InputTextBox.Text, KeyTextBox.Text)
         Catch
             MessageBox.Show("Error! Please enter a valid message to decrypt.", "Enter Valid Message", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try

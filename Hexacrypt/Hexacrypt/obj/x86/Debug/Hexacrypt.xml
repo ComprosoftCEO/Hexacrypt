@@ -6,7 +6,69 @@ Hexacrypt
 </name>
 </assembly>
 <members>
-<member name="P:Hexacrypt.My.Resources.Resources.ResourceManager">
+<member name="M:Hexacrypt.Rand64.#ctor">
+	<summary>
+ Create a new Rand64 object, seeded with a completely random seed
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Hexacrypt.Rand64.#ctor(System.UInt64)">
+	<summary>
+ Create a new Rand64 object, but specify the seed to use
+ </summary>
+	<param name="seed">Seed for random number generator</param>
+	<remarks></remarks>
+</member><member name="M:Hexacrypt.Rand64.reseed(System.UInt64)">
+	<summary>
+ Reseed the random number generator
+ </summary>
+	<param name="seed">New seed</param>
+</member><member name="M:Hexacrypt.Rand64.randomSeed">
+	<summary>
+ Reseed the random number generator with a random seed
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Hexacrypt.Rand64.nextInt">
+	<summary>
+ Get the next random number, as unsigned 64-bit integer
+ </summary>
+	<returns>Random 64-bit integer</returns>
+	<remarks></remarks>
+</member><member name="M:Hexacrypt.Rand64.nextInt(System.UInt64)">
+	<summary>
+ Get the next random number, as unsigned 64-bit integer.
+ 
+ The number returned is between 0 (inclusive) and max (exclusive).
+ Entering 0 will return a number from 0 to MAX
+ 
+ </summary>
+	<param name="max">The max value (exclusive) to return</param>
+	<returns>Random number from 0 (inclusive) to max (exclusive)</returns>
+	<remarks></remarks>
+</member><member name="M:Hexacrypt.Rand64.shuffleString(System.String)">
+	<summary>
+ Shuffle a string using this random object
+ </summary>
+	<param name="input">The string to shuffle</param>
+	<returns>The shuffled string</returns>
+</member><member name="T:Hexacrypt.Rand64">
+	<summary>
+ Pseudo-Random Number Generator for Hexacrypt. Created by Bryan McClain
+ </summary>
+</member><member name="M:Hexacrypt.Hash8.Hash8(System.String)">
+	<summary>
+ Generate a 64-bit hash using a Pearson Hashing algorithm
+ </summary>
+	<param name="input">The string to hash</param>
+	<returns>64-Bit hash</returns>
+	<remarks></remarks>
+</member><member name="M:Hexacrypt.Hash8.Hash8_Checksum(System.String)">
+	<summary>
+ Generate a single byte hash using a Pearson Hashing algorithm
+ </summary>
+	<param name="input">The string to hash</param>
+	<returns>Hash byte</returns>
+	<remarks></remarks>
+</member><member name="P:Hexacrypt.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -27,6 +89,57 @@ Hexacrypt
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
+</member><member name="M:Hexacrypt.Hexacrypt.FilterCharacters(System.String)">
+	<summary>
+ Filter out illegal characters from a string
+ </summary>
+	<param name="input">The string to filter</param>
+	<returns>The filtered string</returns>
+</member><member name="M:Hexacrypt.Hexacrypt.PseudoXor(System.String@,Hexacrypt.Rand64@)">
+	<summary>
+ Do a pseudo xor for the string.
+ </summary>
+	<param name="input">The input string to PseudoXOR</param>
+	<param name="rand">The random object to use</param>
+	<remarks></remarks>
+</member><member name="M:Hexacrypt.Hexacrypt.AddGarbage(System.String@,Hexacrypt.Rand64@)">
+	<summary>
+ Append random garbage onto the front of the string, as well as two 
+ chars to indicate the amount of garbage to remove.
+ </summary>
+	<param name="input">The string to add garbage to</param>
+	<param name="rand">The random number generator to use for the garbage</param>
+</member><member name="M:Hexacrypt.Hexacrypt.RemoveGarbage(System.String@,Hexacrypt.Rand64@)">
+	<summary>
+ Remove any garbage appended to the string. Throws an error if unsuccessful.
+ </summary>
+	<param name="input">The string to remove garbage from</param>
+	<param name="rand">The random object used to generate the string</param>
+	<exception cref="T:System.ArgumentException">Invalid message or key</exception>
+	<remarks></remarks>
+</member><member name="M:Hexacrypt.Hexacrypt.Hexacrypt_Encrypt(System.String,System.String)">
+	<summary>
+ Encrypt a message using Hexacrypt
+ </summary>
+	<param name="message">The message to encrypt</param>
+	<param name="key">Secret key to use to encrypt</param>
+	<returns>Encrypted message</returns>
+	<remarks></remarks>
+</member><member name="M:Hexacrypt.Hexacrypt.Hexacrypt_Decrypt(System.String,System.String)">
+	<summary>
+ Decrypt a message using Hexacrypt
+ </summary>
+	<param name="message">The message to decrypt</param>
+	<param name="key">The key to decrypt with</param>
+	<returns>The decrypted message. Throws an error on invalid!</returns>
+	<exception cref="T:System.ArgumentException">Invalid message or key</exception>
+</member><member name="T:Hexacrypt.Hexacrypt">
+	<summary>
+ Handles the Hexacrypt encryption and decryption algorithm.
+ 
+ Includes 2 functions: Hexacrypt_Encrypt and Hexacrypt_Decrypt.
+ </summary>
+	<remarks></remarks>
 </member>
 </members>
 </doc>

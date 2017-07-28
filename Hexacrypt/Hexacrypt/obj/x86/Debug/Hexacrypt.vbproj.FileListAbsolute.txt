@@ -29,3 +29,12 @@ C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\He
 C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.MainForm.resources
 C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.Resources.resources
 C:\Program Files (x86)\Visual Basic Programs\Useful Tools\Hexacrypt\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.vbproj.GenerateResource.Cache
+K:\Backup Drive\Bryan\Bryan's Stuff\Tools\Visual Basic\Hexacrypt-master\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.exe
+K:\Backup Drive\Bryan\Bryan's Stuff\Tools\Visual Basic\Hexacrypt-master\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.xml
+K:\Backup Drive\Bryan\Bryan's Stuff\Tools\Visual Basic\Hexacrypt-master\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.pdb
+K:\Backup Drive\Bryan\Bryan's Stuff\Tools\Visual Basic\Hexacrypt-master\Hexacrypt\Hexacrypt\bin\Debug\Hexacrypt.exe
+K:\Backup Drive\Bryan\Bryan's Stuff\Tools\Visual Basic\Hexacrypt-master\Hexacrypt\Hexacrypt\bin\Debug\Hexacrypt.pdb
+K:\Backup Drive\Bryan\Bryan's Stuff\Tools\Visual Basic\Hexacrypt-master\Hexacrypt\Hexacrypt\bin\Debug\Hexacrypt.xml
+K:\Backup Drive\Bryan\Bryan's Stuff\Tools\Visual Basic\Hexacrypt-master\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.MainForm.resources
+K:\Backup Drive\Bryan\Bryan's Stuff\Tools\Visual Basic\Hexacrypt-master\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.Resources.resources
+K:\Backup Drive\Bryan\Bryan's Stuff\Tools\Visual Basic\Hexacrypt-master\Hexacrypt\Hexacrypt\obj\x86\Debug\Hexacrypt.vbproj.GenerateResource.Cache
